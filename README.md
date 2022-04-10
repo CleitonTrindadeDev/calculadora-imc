@@ -1,2 +1,2 @@
 # calculadora-imc
- projeto pra calcular imc
+ projeto para calcular imc
