@@ -17,15 +17,15 @@ function imc () {
         if(valorIMC < 18.5){
             classificacao='abaixo do peso';
         }else if (valorIMC < 20){
-            classificacao='com peso ideal. Parabéns';
+            classificacao='com peso ideal. Parabéns!!!';
         }else if (valorIMC < 30){
-            classificacao='levemente acima do peso';
+            classificacao='levemente acima do peso.';
         }else if (valorIMC < 35){
-            classificacao='com obesidade grau 1'
+            classificacao='com obesidade grau 1.'
         }else if (valorIMC < 40){
-            classificacao='com obesidade grau 2'
+            classificacao='com obesidade grau 2.'
         }else {
-            classificacao='com obesidade grau 3. Procure o médico imediatamente'
+            classificacao='com obesidade grau 3. Procure o médico imediatamente!!!'
         }
 
 
@@ -34,7 +34,7 @@ function imc () {
     }else {
         // textContent usado para colocar o valor dentro da div
 
-        resultado.textContent = 'Preencha todos os campos !!!';
+        resultado.innerHTML = 'Preencha todos os campos !!!';
          
     }
 }
